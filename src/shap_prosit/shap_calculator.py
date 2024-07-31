@@ -14,7 +14,7 @@ import shap
 
 sys.path.append(os.getcwd())
 
-from src.models.model_wrappers import ModelWrapper, model_wrappers
+from ..models.model_wrappers import ModelWrapper, model_wrappers
 
 tf.get_logger().setLevel(logging.ERROR)
 
